@@ -18,6 +18,7 @@ jobs:
         
       - name: 7. 部署页面
         run: |
+          git checkout main
           git config --global user.name 'Bigdogdou' 
           git config --global user.email '107261216@qq.com'
           git add .
